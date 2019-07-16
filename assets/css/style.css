@@ -1,0 +1,18 @@
+img {
+    width: 250px;
+}
+
+h1{
+    color: #4aaaa5;
+
+}
+
+.name
+{
+    background: #4aaaa5;
+    color: white;
+}
+
+body{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/fishnets-and-hearts.png")
+}
