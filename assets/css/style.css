@@ -6,6 +6,7 @@ h1 {
     color: #4aaaa5;
     font-size: 20px;
     font-weight: bold;
+    padding: 1% 2%;
 }
 
 .name {
@@ -19,7 +20,7 @@ h1 {
 
 .menu {
     float: right;
-    padding: 2%
+    padding: 2%;
 }
 
 body {
@@ -31,18 +32,38 @@ body {
 }
 
 header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
     background: #ffffff;
     border: #cccccc;
 }
 
 content {
+    display: block;
     background: #ffffff;
     border: #dddddd 1px solid;
+}
+
+.main {
+    padding: 1%;
+    margin: 1%;
 }
 
 nav {
     background: #ffffff;
     width: 960px;
     height: 60px;
+    display: block;
+    border: #cccccc 1px;
+}
+
+footer {
+    display: block;
+    background: #666666;
+    color: #cccccc;
+    text-align: center;
+    padding: 2% 0;
+}
+
+hr {
+    width: 95%;
 }
