@@ -15,6 +15,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    margin: 0 0 3% 0;
 }
 
 .nav {
@@ -50,33 +51,20 @@ content {
     background: #ffffff;
     border: #dddddd 1px solid;
     width: 960px;
-    margin: 5% 20%;
+    margin: 6% 20%;
 }
-
-h1 {
-    color: #4aaaa5;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-/*
-
-
-
-
 
 header {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     background: #ffffff;
     border: #cccccc;
+    padding: 0 2%;
+    color: #4aaaa5;
 }
-
 
 .main {
+    padding: 0 2%;
 }
-
-
 
 footer {
     display: block;
@@ -86,7 +74,3 @@ footer {
     font-size: 10pt;
     padding: 2% 0 0;
 }
-
-hr {
-    width: 95%;
-} */
