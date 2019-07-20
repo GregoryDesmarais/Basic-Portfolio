@@ -33,6 +33,12 @@ footer {
 a {
     color: #777777;
     text-decoration: none;
+    transition: background-color 1s, color .5s;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+    color: white;
 }
 
 .nav {
@@ -131,4 +137,11 @@ textarea {
 
 .contact>p {
     margin: .5% 0;
+}
+
+
+/* Portfolio section */
+
+.portfolio>img {
+    margin: 2% 2% 2% 0;
 }
