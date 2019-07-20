@@ -4,10 +4,6 @@ body {
     color: #777777;
 }
 
-img {
-    width: 250px;
-}
-
 nav {
     background: #ffffff;
     border: #cccccc 1px solid;
@@ -58,12 +54,24 @@ header {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     background: #ffffff;
     border: #cccccc;
-    padding: 0 2%;
+    padding: 1% 2% 0;
     color: #4aaaa5;
 }
 
 .main {
     padding: 0 2%;
+}
+
+img {
+    width: 190px;
+}
+
+.main1>p {
+    display: inline;
+    position: absolute;
+    width: 36%;
+    line-height: 2em;
+    margin: 0 1%;
 }
 
 footer {
@@ -73,4 +81,8 @@ footer {
     text-align: center;
     font-size: 10pt;
     padding: 2% 0 0;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
 }
