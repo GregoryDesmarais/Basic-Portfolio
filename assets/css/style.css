@@ -16,7 +16,7 @@ nav {
 
 .nav {
     width: 960px;
-    margin: 0 20%;
+    margin: 0 25%;
 }
 
 .name {
@@ -47,7 +47,7 @@ content {
     background: #ffffff;
     border: #dddddd 1px solid;
     width: 960px;
-    margin: 6% 20%;
+    margin: 6% 25%;
 }
 
 header {
@@ -60,6 +60,7 @@ header {
 
 .main {
     padding: 0 2%;
+    box-sizing: border-box;
 }
 
 img {
@@ -85,4 +86,5 @@ footer {
     bottom: 0px;
     left: 0px;
     width: 100%;
+    border-top: 8px solid #4aaaa5;
 }
